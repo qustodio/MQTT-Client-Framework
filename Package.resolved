@@ -1,0 +1,13 @@
+{
+  "pins" : [
+    {
+      "identity" : "socketrocket",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/qustodio/SocketRocket",
+      "state" : {
+        "revision" : "93ddadda6a56f0ddd199182c14c9dc4b16026028"
+      }
+    }
+  ],
+  "version" : 2
+}
