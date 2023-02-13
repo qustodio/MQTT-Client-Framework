@@ -155,3 +155,13 @@ If you believe you have identified a security vulnerability with MQTT-Client-Fra
 ## Thanks
 
 This project was originally written by [Christoph Krey](https://github.com/ckrey).
+
+## Release to S3
+
+- Merge PR to `master`.
+- Create a new release candidate on [GitHub releases](https://github.com/qustodio/MQTT-Client-Framework/releases): `0.XX.XX`, For example: `0.15.7`.
+- Ensure you have permissions to S3.
+- Go to path: `cd MQTTClient`.
+- Finally, run the following command: `./scripts/build_xcframework.sh -v <verison> -s <URL from s3>`, For example: `./scripts/build_xcframework.sh -v 0.15.7 -s s3://aws.com/artifacts`.
+- Uplaod manually the zcframework zip file from `.tmp/archive/MQTTCLIENT-0.XX.XX.xcframework.zip`.
+

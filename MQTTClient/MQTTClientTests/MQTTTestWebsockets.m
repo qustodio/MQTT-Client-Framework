@@ -10,7 +10,7 @@
 
 #import "MQTTLog.h"
 #import "MQTTTestHelpers.h"
-#import <SocketRocket/SRWebSocket.h>
+#import "SRWebSocket.h"
 #import "MQTTWebsocketTransport.h"
 
 @interface MQTTTestWebsockets : MQTTTestHelpers <SRWebSocketDelegate>

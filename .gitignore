@@ -18,3 +18,4 @@ DerivedData
 *.xccheckout
 .swiftpm
 .swift-version
+MQTTClient/.tmp/
