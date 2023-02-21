@@ -148,6 +148,17 @@ github "novastone-media/MQTT-Client-Framework"
 3. Right click on it and select "Show in Finder" option.
 4. Just drag and drop MQTTClient.framework to your project
 
+
+## Run tests
+
+In order to run tests on this framework you'll need to launch a mqtt broker. In this case, we're going to use mosquitto. Follow these steps to install it and launch it:
+
+- `brew install mosquitto`
+- `./brokers/mosquitto/start.sh`.
+- Open `open MQTTClient/MQTTClient.xcodeproj`
+- Run test of MQTTClientiOS scheme.
+
+
 ## Security Disclosure
 
 If you believe you have identified a security vulnerability with MQTT-Client-Framework, please report it to ios@novastonemedia.com and do not post it to a public issue tracker.
