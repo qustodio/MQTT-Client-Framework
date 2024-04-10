@@ -11,6 +11,7 @@
 		5DB67F0529940196004388C8 /* MQTTWebsocketTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB67F0129940195004388C8 /* MQTTWebsocketTransport.m */; };
 		5DB67F0629940196004388C8 /* MQTTWebsocketTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB67F0129940195004388C8 /* MQTTWebsocketTransport.m */; };
 		5DB67F0729940196004388C8 /* MQTTWebsocketTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB67F0129940195004388C8 /* MQTTWebsocketTransport.m */; };
+		5DF96C942BC6DC5C002D389E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5DF96C932BC6DC5C002D389E /* PrivacyInfo.xcprivacy */; };
 		840715FA1BBE999700FBB3CB /* mosquitto.org.cer in Resources */ = {isa = PBXBuildFile; fileRef = 8482D3C91B49332700D81CC8 /* mosquitto.org.cer */; };
 		840715FD1BBE999700FBB3CB /* server.der in Resources */ = {isa = PBXBuildFile; fileRef = C21D3CA71B1ED2F40012DD2F /* server.der */; };
 		840716041BBE999700FBB3CB /* AltName.cer in Resources */ = {isa = PBXBuildFile; fileRef = 6BC7FE28E1F56DDCC029E7B9 /* AltName.cer */; };
@@ -286,6 +287,7 @@
 /* Begin PBXFileReference section */
 		2669136D34EA79F3C5A432C4 /* Pods_MQTTClientiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MQTTClientiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB67F0129940195004388C8 /* MQTTWebsocketTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTWebsocketTransport.m; sourceTree = "<group>"; };
+		5DF96C932BC6DC5C002D389E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		65D0432F97D0733EB857DF64 /* Pods_MQTTClientiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MQTTClientiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC7F5C2E599BA5BD018C8AB /* foobar.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file.cer; path = foobar.com.cer; sourceTree = "<group>"; };
 		6BC7FE28E1F56DDCC029E7B9 /* AltName.cer */ = {isa = PBXFileReference; lastKnownFileType = file.cer; path = AltName.cer; sourceTree = "<group>"; };
@@ -594,6 +596,7 @@
 				846191301883E56800101409 /* Supporting Files */,
 				C701E3361FB0A70600B0CEB5 /* GCDTimer.h */,
 				C701E3371FB0A70600B0CEB5 /* GCDTimer.m */,
+				5DF96C932BC6DC5C002D389E /* PrivacyInfo.xcprivacy */,
 			);
 			path = MQTTClient;
 			sourceTree = "<group>";
@@ -1091,6 +1094,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF96C942BC6DC5C002D389E /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
