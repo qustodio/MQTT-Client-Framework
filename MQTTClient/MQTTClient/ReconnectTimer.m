@@ -53,6 +53,7 @@
 }
 
 - (void)resetRetryInterval {
+    NSLog(@"🎅 Resetting retry interval. CurrentRetryInterval set to: %f", self.retryInterval);
     self.currentRetryInterval = self.retryInterval;
 }
 
